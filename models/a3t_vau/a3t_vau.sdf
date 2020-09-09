@@ -122,7 +122,7 @@
       <pose>0.4 -0.3 0.03 0 0 0</pose>
       <inertial>
         <pose>0 0 0 0 0 0</pose>
-        <mass>0.18</mass>
+        <mass>0.05</mass>
         <inertia>
           <ixx>0.0166704</ixx>
           <ixy>0</ixy>
@@ -260,7 +260,7 @@
       <pose>-0.4 0.30 0.03 0 0 0</pose>
       <inertial>
         <pose>0 0 0 0 0 0</pose>
-        <mass>0.18</mass>
+        <mass>0.05</mass>
         <inertia>
           <ixx>0.0166704</ixx>
           <ixy>0</ixy>
@@ -398,7 +398,7 @@
       <pose>0.4 0.3 0.03 0 0 0</pose>
       <inertial>
         <pose>0 0 0 0 0 0</pose>
-        <mass>0.18</mass>
+        <mass>0.05</mass>
         <inertia>
           <ixx>0.0166704</ixx>
           <ixy>0</ixy>
@@ -535,7 +535,7 @@
        <pose>-0.4 -0.3 0.03 0 0 0</pose>
       <inertial>
         <pose>0 0 0 0 0 0</pose>
-        <mass>0.18</mass>
+        <mass>0.05</mass>
         <inertia>
           <ixx>0.0166704</ixx>
           <ixy>0</ixy>
@@ -890,16 +890,16 @@
       <control_joint_rad_to_cl>-0.5</control_joint_rad_to_cl>
     </plugin>
     <plugin name="elevator" filename="libLiftDragPlugin.so">
-      <a0>-0.2</a0>
-      <cla>5.37</cla>
+      <a0>-0.013</a0>
+      <cla>5.5</cla>
       <cda>0.48</cda>
       <cma>0.0</cma>
-      <alpha_stall>0.26</alpha_stall>
+      <alpha_stall>0.3</alpha_stall>
       <cla_stall>-3.85</cla_stall>
       <cda_stall>-0.9233984055</cda_stall>
       <cma_stall>0</cma_stall>
       <cp>0.3 0 0</cp>
-      <area>0.05</area>
+      <area>0.036</area>
       <air_density>1.2041</air_density>
       <forward>1 0 0</forward>
       <upward>0 0 1</upward>
@@ -933,11 +933,11 @@
       <timeConstantUp>0.0125</timeConstantUp>
       <timeConstantDown>0.025</timeConstantDown>
       <maxRotVelocity>1500</maxRotVelocity>
-      <motorConstant>2.1e-05</motorConstant>
-      <momentConstant>0.0136</momentConstant>
+      <motorConstant>4e-05</motorConstant>
+      <momentConstant>0.026</momentConstant>
       <commandSubTopic>/gazebo/command/motor_speed</commandSubTopic>
       <motorNumber>0</motorNumber>
-      <rotorDragCoefficient>0.057</rotorDragCoefficient>
+      <rotorDragCoefficient>0.00046</rotorDragCoefficient>
       <rollingMomentCoefficient>1e-06</rollingMomentCoefficient>
       <motorSpeedPubTopic>/motor_speed/0</motorSpeedPubTopic>
       <rotorVelocitySlowdownSim>20</rotorVelocitySlowdownSim>
@@ -950,11 +950,11 @@
       <timeConstantUp>0.0125</timeConstantUp>
       <timeConstantDown>0.025</timeConstantDown>
       <maxRotVelocity>1500</maxRotVelocity>
-      <motorConstant>2.1e-05</motorConstant>
-      <momentConstant>0.0136</momentConstant>
+      <motorConstant>4e-05</motorConstant>
+      <momentConstant>0.026</momentConstant>
       <commandSubTopic>/gazebo/command/motor_speed</commandSubTopic>
       <motorNumber>1</motorNumber>
-      <rotorDragCoefficient>0.057</rotorDragCoefficient>
+      <rotorDragCoefficient>0.00046</rotorDragCoefficient>
       <rollingMomentCoefficient>1e-06</rollingMomentCoefficient>
       <motorSpeedPubTopic>/motor_speed/1</motorSpeedPubTopic>
       <rotorVelocitySlowdownSim>20</rotorVelocitySlowdownSim>
@@ -967,11 +967,11 @@
       <timeConstantUp>0.0125</timeConstantUp>
       <timeConstantDown>0.025</timeConstantDown>
       <maxRotVelocity>1500</maxRotVelocity>
-      <motorConstant>2.1e-05</motorConstant>
-      <momentConstant>0.0136</momentConstant>
+      <motorConstant>4e-05</motorConstant>
+      <momentConstant>0.026</momentConstant>
       <commandSubTopic>/gazebo/command/motor_speed</commandSubTopic>
       <motorNumber>2</motorNumber>
-      <rotorDragCoefficient>0.057</rotorDragCoefficient>
+      <rotorDragCoefficient>0.00046</rotorDragCoefficient>
       <rollingMomentCoefficient>1e-06</rollingMomentCoefficient>
       <motorSpeedPubTopic>/motor_speed/2</motorSpeedPubTopic>
       <rotorVelocitySlowdownSim>20</rotorVelocitySlowdownSim>
@@ -984,11 +984,11 @@
       <timeConstantUp>0.0125</timeConstantUp>
       <timeConstantDown>0.025</timeConstantDown>
       <maxRotVelocity>1500</maxRotVelocity>
-      <motorConstant>2.1e-05</motorConstant>
-      <momentConstant>0.0136</momentConstant>
+      <motorConstant>4e-05</motorConstant>
+      <momentConstant>0.026</momentConstant>
       <commandSubTopic>/gazebo/command/motor_speed</commandSubTopic>
       <motorNumber>3</motorNumber>
-      <rotorDragCoefficient>0.057</rotorDragCoefficient>
+      <rotorDragCoefficient>0.00046</rotorDragCoefficient>
       <rollingMomentCoefficient>1e-06</rollingMomentCoefficient>
       <motorSpeedPubTopic>/motor_speed/3</motorSpeedPubTopic>
       <rotorVelocitySlowdownSim>20</rotorVelocitySlowdownSim>
