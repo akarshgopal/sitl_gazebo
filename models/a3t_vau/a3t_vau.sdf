@@ -5,7 +5,7 @@
       <pose>0 0 0 0 0 0</pose>
       <inertial>
         <pose>0 0 0 0 0 0</pose>
-        <mass>10</mass>
+        <mass>8</mass>
         <inertia>
           <ixx>1.0</ixx>
           <ixy>0</ixy>
@@ -890,7 +890,7 @@
       <control_joint_rad_to_cl>-0.5</control_joint_rad_to_cl>
     </plugin>
     <plugin name="elevator" filename="libLiftDragPlugin.so">
-      <a0>-0.013</a0>
+      <a0>0.013</a0>
       <cla>5.5</cla>
       <cda>0.48</cda>
       <cma>0.0</cma>
@@ -934,7 +934,7 @@
       <timeConstantDown>0.025</timeConstantDown>
       <maxRotVelocity>1500</maxRotVelocity>
       <motorConstant>4e-05</motorConstant>
-      <momentConstant>0.026</momentConstant>
+      <momentConstant>0.0137</momentConstant>
       <commandSubTopic>/gazebo/command/motor_speed</commandSubTopic>
       <motorNumber>0</motorNumber>
       <rotorDragCoefficient>0.00046</rotorDragCoefficient>
@@ -951,7 +951,7 @@
       <timeConstantDown>0.025</timeConstantDown>
       <maxRotVelocity>1500</maxRotVelocity>
       <motorConstant>4e-05</motorConstant>
-      <momentConstant>0.026</momentConstant>
+      <momentConstant>0.0137</momentConstant>
       <commandSubTopic>/gazebo/command/motor_speed</commandSubTopic>
       <motorNumber>1</motorNumber>
       <rotorDragCoefficient>0.00046</rotorDragCoefficient>
@@ -968,7 +968,7 @@
       <timeConstantDown>0.025</timeConstantDown>
       <maxRotVelocity>1500</maxRotVelocity>
       <motorConstant>4e-05</motorConstant>
-      <momentConstant>0.026</momentConstant>
+      <momentConstant>0.0137</momentConstant>
       <commandSubTopic>/gazebo/command/motor_speed</commandSubTopic>
       <motorNumber>2</motorNumber>
       <rotorDragCoefficient>0.00046</rotorDragCoefficient>
@@ -985,7 +985,7 @@
       <timeConstantDown>0.025</timeConstantDown>
       <maxRotVelocity>1500</maxRotVelocity>
       <motorConstant>4e-05</motorConstant>
-      <momentConstant>0.026</momentConstant>
+      <momentConstant>0.0137</momentConstant>
       <commandSubTopic>/gazebo/command/motor_speed</commandSubTopic>
       <motorNumber>3</motorNumber>
       <rotorDragCoefficient>0.00046</rotorDragCoefficient>
